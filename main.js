@@ -16,7 +16,7 @@ var iterm = {
     // First, get the current cursor:
     //
     var cursor = iterm.extMan.getExtCommand('getCursor').command();
-    var extScript = `${iterm.extMan.getExtensionDir()}/iTerm-ModalFileManagerExtension-V2/iterm.scpt`;
+    var extScript = `${iterm.extMan.getExtensionDir()}/iTerm-mfm-V2/iterm.scpt`;
 
     //
     // Use AppleScript command line to open the cursor in iterm.
